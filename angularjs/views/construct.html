@@ -1,0 +1,23 @@
+<html>
+<body>
+<script>
+document.write("Hello World!</br>");
+
+function Hero(name){
+		this.name=name;
+		this.occupation='doc';
+		this.whoAreYou=function(){
+			return "i am" + " " + this.name +" "+ this.occupation ;
+
+		}
+	}
+
+	var h1 = new Hero('A');
+	
+	document.write(h1.whoAreYou());
+</script>
+
+
+
+</body>
+</html>
